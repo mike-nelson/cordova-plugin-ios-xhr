@@ -1,6 +1,12 @@
 # cordova-plugin-ios-xhr
 ## cordova-ios 6+ File XHR Plugin
 
+### Modified 2020-12-10
+
+Added NSDocumentDirectory to allowed URLs in security check. This enables you to use xhr to grab urls such as:
+
+`file:///var/mobile/Containers/Data/Application/A14743B2-A33F-4B0E-901E-5F9F021D4E93/Documents/myfolder/myfile.html`
+
 ### About
 > Originally, this plugin was a merge of two other plugins, and made compatible for cordova-ios 6+.
 
