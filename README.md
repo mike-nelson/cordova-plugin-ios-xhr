@@ -7,6 +7,11 @@ Added NSDocumentDirectory to allowed URLs in security check. This enables you to
 
 `file:///var/mobile/Containers/Data/Application/A14743B2-A33F-4B0E-901E-5F9F021D4E93/Documents/myfolder/myfile.html`
 
+> install from github 
+
+     cordova plugin add https://github.com/mike-nelson/cordova-plugin-ios-xhr
+
+
 ### About
 > Originally, this plugin was a merge of two other plugins, and made compatible for cordova-ios 6+.
 
